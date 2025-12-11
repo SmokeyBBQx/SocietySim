@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+   <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+    <PackageReference Include="DIKU.Canvas" Version="2.0.4" />
+    <PackageReference Include="DIKU.Graph" Version="1.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Include="meetUp.fsi" />
+        <Compile Include="meetUp.fs" />
+        <Compile Include="meetUpExamples.fsx" />
+    </ItemGroup>
+</Project>
